@@ -10,21 +10,21 @@ public class StringsStringBuilderStringBuffer {
         // Concatenates to String
         public static void concat1(String s1)
         {
-            s1 = s1 + "forgeeks";
+            s1 = s1 + "camp";
         }
 
         // Method 2
         // Concatenates to StringBuilder
         public static void concat2(StringBuilder s2)
         {
-            s2.append("forgeeks");
+            s2.append("camp");
         }
 
         // Method 3
         // Concatenates to StringBuffer ()
         public static void concat3(StringBuffer s3)
         {
-            s3.append("forgeeks");
+            s3.append("camp");
         }
 
         // Method 4
@@ -32,7 +32,7 @@ public class StringsStringBuilderStringBuffer {
         public static void main(String[] args){
             // Custom input string
             // String 1
-            String s1 = "Geeks";
+            String s1 = "Boot";
 
             // Calling above defind method
             concat1(s1);
@@ -41,7 +41,7 @@ public class StringsStringBuilderStringBuffer {
             System.out.println("String: " + s1);
 
             // String 1
-            StringBuilder s2 = new StringBuilder("Geeks");
+            StringBuilder s2 = new StringBuilder("Camp");
 
             // Calling above defind method (thread safety)
             concat2(s2);
@@ -50,7 +50,7 @@ public class StringsStringBuilderStringBuffer {
             System.out.println("StringBuilder: " + s2);
 
             // String 3
-            StringBuffer s3 = new StringBuffer("Geeks");
+            StringBuffer s3 = new StringBuffer("Camp");
 
             // Calling above defind method
             concat3(s3);

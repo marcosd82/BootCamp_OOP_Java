@@ -32,7 +32,7 @@ public class Generics {
         //Container <Integer> obj = new Container<>();
         //obj.setValue(9);
 
-        //Example using a custom studen class in order to verify my Container <T generic type>
+        //Example using a custom student class in order to verify my Container <T generic type>
         Container <Student> obj = new Container<>();
         obj.setValue(new Student());
         obj.show();
